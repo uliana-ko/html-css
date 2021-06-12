@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: pink;
+}
+
+.distribution {
+
+    width: 700px;
+    height: 450px;
+    box-align: left;
+    border: 5px solid pink;
+}
+.chart {
+    width: 800px;
+    height: 600px;
+    box-align: left;
+    border: 5px solid pink;
+}
+
+.calendar {
+    width: 800px;
+    height: 300px;
+    box-align: left;
+    border: 5px solid pink;
+}
+
+.table {
+    width: 800px;
+    height: 250px;
+    box-align: left;
+    border: 5px solid pink;
+}
+
+.datatable {
+    width: 1000px;
+    height: 350px;
+    box-align: left;
+    border: 5px solid pink;
+}
+
+p {
+    text-align:center;
+}

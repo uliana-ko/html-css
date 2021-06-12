@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin: 0;
+    border:0;
+} 
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.caption {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right:200%;
+}
+
+table {
+	border-collapse:collapse;
+	table-layout: auto;
+    border-spacing: 50px;
+    width:35%;
+    margin-left: 30px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+	font-family:'Times New Roman', Times, serif;
+}
+
+
+
+th, td {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 100
+   }
+ 
+ th {
+	text-align: left;
+ }
+
+ table td:last-child {
+	 font-weight: bold;
+	 color: black;
+	 text-align: right;
+ }
+
+ .border1 {
+	 
+    border-bottom: 2px solid grey;
+}
+
+.border2 {
+
+    border-top: 2px solid grey;
+}
+
+.image {
+	height: 15px;
+	width:20px;
+	margin-left: -20px;
+	padding-right: -10px;
+	padding-left: -10px;
+
+}
+
+table td:first-child {
+	padding-right:30px;
+}
+
+.main_block {
+	background-color: grey;
+	width: 55px;
+	height:10px;
+	border-radius: 5px;
+}
+
+.block1 {
+	background-color: green;
+	height:10px;
+	border-radius: 5px;
+	width: 35px;
+}
+
+.block2 {
+	background-color: green;
+	height:10px;
+	border-radius: 5px;
+	width: 45px;
+}
+
+.block3 {
+	background-color: green;
+	height:10px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	width: 5px;
+
+}
+
+.block4 {
+	background-color: green;
+	height:10px;
+	border-radius: 5px;
+	width: 55px;
+}
+
+.block5 {
+	background-color: green;
+	height:10px;
+	border-radius: 5px;
+	width: 15px;
+}
+
+
+
