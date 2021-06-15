@@ -133,30 +133,76 @@ h6 {
   font-weight: bold;
   font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 5%;
-  margin-top: 2%;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
-.parent {
-  margin-left: 5%;
-  margin-top: 10%;
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.content {
+  display: inline-flex;
   width: 600px;
   height: 300px;
-  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
-.parent-left {
+.left_column {
+  display: inline-flex;
   background-color: #00ff7f;
-  width: 50%;
-  height: 100%;
-  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin-right: 0.5px;
 }
 
-.parent-right {
-  position: relative;
-  display: inline-block;
-  width: 50%;
-  float: right;
-  height: 100%;
-  margin-left: 20px;
+.right_column {
+  display: block;
+  width: 300px;
+  height: 600px;
+}
+
+.right_top {
+  width: 300px;
+  height: 150px;
+  background-color: #ff00ff;
+  margin-bottom: 5px;
+}
+
+.right_bottom {
+  display: inline-flex;
+  width: 300px;
+  height: 150px;
+}
+
+.right_bottom_right {
+  display: inline-flex;
+  height: 145px;
+  width: 150px;
+  background-color: #00ffff;
+  margin-right: 5px;
+}
+
+.right_bottom_left {
+  display: block;
+  height: 150px;
+  width: 150px;
+}
+
+.yellow {
+  display: block;
+  height: 75px;
+  width: 150px;
+  background-color: #ffd700;
+  margin-bottom: 5px;
+}
+
+.grey {
+  display: block;
+  height: 65px;
+  width: 150px;
+  background-color: #c0c0c0;
 }
